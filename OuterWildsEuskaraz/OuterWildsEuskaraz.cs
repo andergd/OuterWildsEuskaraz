@@ -14,9 +14,11 @@ namespace OuterWildsEuskaraz
 
         private void Start()
         {
+            var api = ModHelper.Interaction.TryGetModApi<ILocalizationAPI>("xen.LocalizationUtility");
+            api.RegisterLanguage(this, "Euskara", "assets/eu.xml");
+            
             // Starting here, you'll have access to OWML's mod helper.
             ModHelper.Console.WriteLine($"My mod {nameof(OuterWildsEuskaraz)} is loaded!", MessageType.Success);
-
 
             // Example of accessing game code.
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
