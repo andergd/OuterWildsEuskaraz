@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "OuterWildsEuskaraz.dll",
+  "author": "VholyIQ",
+  "name": "OuterWildsEuskaraz",
+  "uniqueName": "VholyIQ.OuterWildsEuskaraz",
+  "version": "0.1.0",
+  "owmlVersion": "2.8.0",
+  "dependencies": [
+	"xen.LocalizationUtility"
+  ]
+}
